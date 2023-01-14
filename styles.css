@@ -1,0 +1,172 @@
+/* Universal reset and setting required fonts  */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #131313;
+
+}
+
+/* setting color variables */
+
+:root 
+{
+    --bgc: rgba(255, 144, 14, 0.1);
+    --orgc: #FF900E;
+    --ashc: #727272;
+
+}
+
+/* Navbar and header section styles. */
+.nav-and-header
+{
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 1400px;
+    background-color: var(--bgc);
+}
+
+.page-name
+{
+    width: 302px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar
+{
+    max-width: 1453px;
+    margin: 0 auto;
+    padding-top: 44px;
+    margin-bottom: 120px;
+    height: 57px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-contents-list
+{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav-contents-list a
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* header section styles */
+
+.header-title-container
+{
+    max-width: 862px;
+    margin: 0 auto;
+    height: 225px;
+}
+
+.header-title
+{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.header-title-description
+{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: var(--ashc);
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btn
+{
+    background-color: var(--orgc);
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    margin-bottom: 50px;
+}
+
+.header-picture
+{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 700px;
+
+}
+
+/* features section styles */
+
+.features-container
+{
+    max-width: 1318px;
+    margin: 80px auto 130px auto;
+    height: 715px;
+    /* background-color: lightblue; */
+    display: flex;
+
+}
+
+.image-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+    grid-column-gap: 24px;
+    margin-right: 73px;
+}
+
+.quick-list-container
+{
+    width: 537px;
+    height: 304px;
+    /* background-color:grey; */
+    margin: 202px auto 0 auto;
+}
+
+.quick-list-title
+{
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.quick-list-description
+{
+    width: 537px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ashc);
+    margin-bottom: 32px;
+}
+
+
