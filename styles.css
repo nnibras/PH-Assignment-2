@@ -423,3 +423,40 @@
     height: 52px;
     color: var(--ashc);
 }
+
+.sponsor-2-container
+{
+    max-width: 1440px;
+    margin: 0 auto 130px auto;
+    height: 50px;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsor-2-container img
+{  
+    filter: grayscale(100%);
+}
+
+/* footer styles */
+
+.footer-container
+{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto 216px auto;
+    background-color: var(--bgc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-container p
+{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--ashc);
+}
